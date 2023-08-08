@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/gradient2">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/mainTB"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@drawable/gradient2"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+            <ImageButton
+                android:id="@+id/backArrowIBT"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_gravity="start"
+                android:background="@drawable/stroke1"
+                android:contentDescription="@string/description_imageButton_back"
+                android:src="@drawable/baseline_arrow_back_24" />
+
+            <ImageView
+                android:id="@+id/toolbarLogoIV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_marginStart="32dp"
+                android:contentDescription="@string/description_icon_app"
+                android:src="@mipmap/ic_launcher" />
+
+            <ImageButton
+                android:id="@+id/burgerMenuIB"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_gravity="end"
+                android:layout_marginEnd="12dp"
+                android:background="@drawable/stroke1"
+                android:contentDescription="@string/description_imageButton_lupe"
+                android:src="@drawable/baseline_menu_24" />
+
+            <ImageButton
+                android:id="@+id/lupenSymbolIB"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_gravity="end"
+                android:layout_marginEnd="12dp"
+                android:background="@drawable/stroke1"
+                android:contentDescription="@string/description_imageButton_burger"
+                android:src="@drawable/baseline_search_24" />
+
+        </androidx.appcompat.widget.Toolbar>
+
+    <View
+        android:id="@+id/toolbarBottomStroke"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/deepPurple"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/mainTB" />
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/mainMessageCV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        app:cardBackgroundColor="@color/transparent"
+        app:cardElevation="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/mainTB"
+        app:strokeColor="@color/transparent">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="16dp">
+
+            <ImageView
+                android:id="@+id/appIV"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_marginEnd="8dp"
+                android:contentDescription="@string/description_icon_app"
+                app:srcCompat="@drawable/topappimage" />
+
+            <TextView
+                android:id="@+id/mainIntroTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_intro1"
+                android:textColor="@color/teal_200" />
+
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+    <LinearLayout
+        android:id="@+id/arrowLL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="64dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="@+id/mainMessageCV"
+        app:layout_constraintStart_toStartOf="@+id/mainMessageCV"
+        app:layout_constraintTop_toBottomOf="@+id/mainMessageCV">
+
+        <ImageView
+            android:id="@+id/arrowsouthIV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:contentDescription="@string/description_arrow_south_west"
+            app:srcCompat="@drawable/baseline_arrow_south_west_24" />
+
+        <TextView
+            android:id="@+id/sportauswahlTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/sportartAuswahlTV"
+            android:textColor="@color/transparentWhite"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/sportartAuswahlRV"
+        android:layout_width="wrap_content"
+        android:layout_height="280dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/arrowLL" />
+
+    <Button
+        android:id="@+id/wettenLifeBT"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="4dp"
+        android:background="@drawable/button_background"
+        android:text="@string/button_wetten"
+        android:textColor="@color/teal_200"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/arrowLL" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/wettenLiveRV"
+        android:layout_width="200dp"
+        android:layout_height="228dp"
+        android:layout_marginEnd="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/wettenLifeBT" />
+
+    <TextView
+        android:id="@+id/appVersionTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:text="@string/text_appversion"
+        android:textColor="@color/gray"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

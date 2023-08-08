@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WelcomeActivity"
+    android:background="@drawable/gradient2">
+
+    <ImageView
+        android:id="@+id/appLogoWelcomeIV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/ic_launcher"
+        android:contentDescription="@string/description_icon_app"/>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/welcomeMessageCV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        app:cardBackgroundColor="@color/transparent"
+        app:cardElevation="8dp"
+        app:layout_constraintEnd_toEndOf="@+id/appLogoWelcomeIV"
+        app:layout_constraintStart_toStartOf="@+id/appLogoWelcomeIV"
+        app:layout_constraintTop_toBottomOf="@+id/appLogoWelcomeIV"
+        app:strokeColor="@color/transparent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:padding="16dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/welcomeIntroTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_intro1"
+                android:textColor="@color/teal_200" />
+
+            <TextView
+                android:id="@+id/welcome1TV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="@string/text_welcome1"
+                android:textColor="@color/teal_200" />
+
+            <TextView
+                android:id="@+id/welcome2TV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="@string/text_welcome2"
+                android:textColor="@color/teal_200" />
+
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="88dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="@+id/welcomeMessageCV"
+        app:layout_constraintStart_toStartOf="@+id/welcomeMessageCV"
+        app:layout_constraintTop_toBottomOf="@+id/welcomeMessageCV">
+
+        <Button
+            android:id="@+id/loginregisterBT"
+            android:layout_width="168dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_background"
+            android:text="@string/button_welcome_login"
+            android:textColor="@color/teal_200"
+            tools:layout_editor_absoluteX="74dp"
+            tools:layout_editor_absoluteY="358dp" />
+
+        <Button
+            android:id="@+id/musikBT"
+            android:layout_width="168dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="48dp"
+            android:background="@drawable/button_background"
+            android:text="@string/button_welcome_musik"
+            android:textColor="@color/teal_200"
+            tools:layout_editor_absoluteX="74dp"
+            tools:layout_editor_absoluteY="454dp" />
+
+    </LinearLayout>
+
+    <HorizontalScrollView
+        android:id="@+id/imageSV"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="74dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:contentDescription="@string/description_image_football"
+                android:padding="8dp"
+                android:src="@drawable/football" />
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:contentDescription="@string/description_image_heavy"
+                android:padding="8dp"
+                android:src="@drawable/gewicht" />
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:contentDescription="@string/description_image_golf"
+                android:padding="8dp"
+                android:src="@drawable/golfen" />
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:contentDescription="@string/description_image_stadion"
+                android:padding="8dp"
+                android:src="@drawable/stadion" />
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:contentDescription="@string/description_image_surfen"
+                android:padding="8dp"
+                android:src="@drawable/surfen" />
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:contentDescription="@string/description_image_tennis"
+                android:padding="8dp"
+                android:src="@drawable/tennis" />
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:contentDescription="@string/description_image_tischtennis"
+                android:padding="8dp"
+                android:src="@drawable/tischtennis" />
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+    <TextView
+        android:id="@+id/appVersionTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:text="@string/text_appversion"
+        android:textColor="@color/gray"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

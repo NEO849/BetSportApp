@@ -1,0 +1,479 @@
+<resources>
+    <string name="app_name">Top 100</string>
+
+    <string name="description_flag">Das ist die Länderflagge des Spielers</string>
+    <string name="description_boxen">Das ist das Boxen Image</string>
+    <string name="description_icon_app">Das ist das App Icon, Top 100</string>
+    <string name="description_image_fahrrad">Das ist ein Fahradfahrer</string>
+    <string name="description_image_football">Das ist ein Footballspieler</string>
+    <string name="description_image_heavy">Das ist ein Gewichtheber</string>
+    <string name="description_image_golf">Das ist ein Golfspieler</string>
+    <string name="description_image_skaten">Das ist ein Skater</string>
+    <string name="description_image_stadion">Das ist ein Stadion</string>
+    <string name="description_image_surfen">Das ist ein Surfer</string>
+    <string name="description_image_tennis">Das ist ein Tennisspieler</string>
+    <string name="description_image_tischtennis">Das ist ein Tischtennisspieler</string>
+    <string name="description_imageButton_back">Zum vorherigen Bildschirm gehen</string>
+    <string name="description_imageButton_lupe">Das ist die Such Option</string>
+    <string name="description_imageButton_burger">Damit geht es zum Menu</string>
+    <string name="description_imageButton_backlink">Damit geht es zur Webseite der Länderflaggen</string>
+    <string name="description_sportart_auswahl">Das ist ein Bild der ausgewählten Sportart</string>
+    <string name="description_arrow_south_west">Das ist ein roter Pfeil der nach links unten zeigt </string>
+    <string name="description_quote_fussball_heim">Hier steht die Heim Quote</string>
+    <string name="description_quote_fussball_remi">Hier steht die Unentschieden Quote</string>
+    <string name="description_quote_fussball_gast">Hier steht die Auswärts Quote</string>
+
+
+    <string name="text_copyright">\u00A9 2023 Michael F. Junior</string>
+    <string name="text_appversion">Version 1.0.1</string>
+    <string name="text_intro1">Sport - Wetten / Statistiken / Ergebnise</string>
+    <string name="text_intro2">DIFFERENT</string>
+    <string name="text_intro3">can be better!</string>
+    <string name="text_intro4">Wetten / Statistiken / Ergebnise</string>
+    <string name="text_welcome1">Willkommen</string>
+    <string name="text_welcome2">bitte melden Sie sich an!</string>
+    <string name="text_login">Login to continue</string>
+    <string name="text_username">Username</string>
+    <string name="text_passwort">Passwort</string>
+    <string name="text_forgot_passwort">Passwort vergessen?</string>
+    <string name="text_no_account">Noch keinen Account?</string>
+    <string name="text_heim_mannschaft">Heim FC</string>
+    <string name="text_gast_mannschaft">Gast SV</string>
+    <string name="text_register_here">Hier Registrieren!</string>
+    <string name="text_quote_heim">2.45</string>
+    <string name="text_quote_remi">1.25</string>
+    <string name="text_quote_gast">3.80</string>
+    <string name="text_index_heim">1</string>
+    <string name="text_index_gast">2</string>
+    <string name="text_tennis_tophundert">BEST Top 100 Tennis-Spieler</string>
+
+    <string name="button_welcome_login">Login / Register</string>
+    <string name="button_welcome_musik">Musik?</string>
+    <string name="button_tennis">Tennis</string>
+    <string name="button_fussball">Fussball</string>
+    <string name="button_boxen">Boxen</string>
+    <string name="button_login">Login</string>
+    <string name="button_wetten_fussball">Bet</string>
+    <string name="button_wetten">Wetten</string>
+
+
+    <string name="welcomeTV">Willkommen</string>
+    <string name="sportartTV">Sportart</string>
+    <string name="sportartAuswahlTV">Wähle eine Sportart !!!</string>
+
+    <string name="backlink_url_flags">King Regards too     https://flagpedia.net</string>
+
+    <string-array name="player_ranks">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+        <item>32</item>
+        <item>33</item>
+        <item>34</item>
+        <item>35</item>
+        <item>36</item>
+        <item>37</item>
+        <item>38</item>
+        <item>39</item>
+        <item>40</item>
+        <item>41</item>
+        <item>42</item>
+        <item>43</item>
+        <item>44</item>
+        <item>45</item>
+        <item>46</item>
+        <item>47</item>
+        <item>48</item>
+        <item>49</item>
+        <item>50</item>
+        <item>51</item>
+        <item>52</item>
+        <item>53</item>
+        <item>54</item>
+        <item>55</item>
+        <item>56</item>
+        <item>57</item>
+        <item>58</item>
+        <item>59</item>
+        <item>60</item>
+        <item>61</item>
+        <item>62</item>
+        <item>63</item>
+        <item>64</item>
+        <item>65</item>
+        <item>66</item>
+        <item>67</item>
+        <item>68</item>
+        <item>69</item>
+        <item>70</item>
+        <item>71</item>
+        <item>72</item>
+        <item>73</item>
+        <item>74</item>
+        <item>75</item>
+        <item>76</item>
+        <item>77</item>
+        <item>78</item>
+        <item>79</item>
+        <item>80</item>
+        <item>81</item>
+        <item>82</item>
+        <item>83</item>
+        <item>84</item>
+        <item>85</item>
+        <item>86</item>
+        <item>87</item>
+        <item>88</item>
+        <item>89</item>
+        <item>90</item>
+        <item>91</item>
+        <item>92</item>
+        <item>93</item>
+        <item>94</item>
+        <item>95</item>
+        <item>96</item>
+        <item>97</item>
+        <item>98</item>
+        <item>99</item>
+        <item>100</item>
+    </string-array>
+
+    <string-array name="player_names">
+        <item>Carlos Alcaraz</item>
+        <item>Novak Djokovic</item>
+        <item>Daniil Medvedev</item>
+        <item>Casper Ruud</item>
+        <item>Stefanos Tsitsipas</item>
+        <item>Holger Rune</item>
+        <item>Andrey Rublev</item>
+        <item>Jannik Sinner</item>
+        <item>Taylor Fritz</item>
+        <item>Frances Tiafoe</item>
+        <item>Karen Khachanov</item>
+        <item>Felix Auger-Aliassime</item>
+        <item>Cameron Norrie</item>
+        <item>Tommy Paul</item>
+        <item>Borna Coric</item>
+        <item>Hubert Hurkacz</item>
+        <item>Alex de Minaur</item>
+        <item>Lorenzo Musetti</item>
+        <item>Alexander Zverev</item>
+        <item>Grigor Dimitrov</item>
+        <item>Francisco Cerundolo</item>
+        <item>Denis Shapovalov</item>
+        <item>Pablo Carreno Busta</item>
+        <item>Jan-Lennard Struff</item>
+        <item>Roberto Bautista Agut</item>
+        <item>Alexander Bublik</item>
+        <item>Adrian Mannarino</item>
+        <item>Sebastian Korda</item>
+        <item>Nicolas Jarry</item>
+        <item>Daniel Evans</item>
+        <item>Yoshihito Nishioka</item>
+        <item>Christopher Eubanks</item>
+        <item>Jiri Lehecka</item>
+        <item>Tomas Martin Etcheverry</item>
+        <item>Nick Kyrgios</item>
+        <item>Tallon Griekspoor</item>
+        <item>Matteo Berrettini</item>
+        <item>Ugo Humbert</item>
+        <item>Alejandro Davidovich Fokina</item>
+        <item>Miomir Kecmanovic</item>
+        <item>Ben Shelton</item>
+        <item>Andy Murray</item>
+        <item>Lorenzo Sonego</item>
+        <item>Botic Van de Zandschulp</item>
+        <item>Yannick Hanfmann</item>
+        <item>Jeffrey John Wolf</item>
+        <item>Roman Safiullin</item>
+        <item>Richard Gasquet</item>
+        <item>Pedro Cachin</item>
+        <item>Emil Ruusuvuori</item>
+        <item>Mikael Ymer</item>
+        <item>Sebastian Ofner</item>
+        <item>Gregoire Barrere</item>
+        <item>Bernabe Zapata Miralles</item>
+        <item>Mackenzie McDonald</item>
+        <item>Marton Fucsovics</item>
+        <item>Laslo Djere</item>
+        <item>Brandon Nakashima</item>
+        <item>Roberto Carballes Baena</item>
+        <item>Dusan Lajovic</item>
+        <item>Daniel Altmaier</item>
+        <item>Marcos Giron</item>
+        <item>Jordan Thompson</item>
+        <item>Sebastian Baez</item>
+        <item>Albert Ramos-Vinolas</item>
+        <item>Quentin Halys</item>
+        <item>Daniel Elahi Galan</item>
+        <item>Christopher O’Connell</item>
+        <item>Aslan Karatsev</item>
+        <item>Juan Pablo Varillas</item>
+        <item>Arthur Fils</item>
+        <item>Stan Wawrinka</item>
+        <item>Corentin Moutet</item>
+        <item>Max Purcell</item>
+        <item>Nuno Borges</item>
+        <item>Matteo Arnaldi</item>
+        <item>Luca Van Assche</item>
+        <item>Jack Draper</item>
+        <item>Zhizhen Zhang</item>
+        <item>Arthur Rinderknech</item>
+        <item>Alexandre Muller</item>
+        <item>Aleksandar Vukic</item>
+        <item>Marc-Andrea Huesler</item>
+        <item>Jason Kubler</item>
+        <item>Pavel Kotov</item>
+        <item>Thanasi Kokkinakis</item>
+        <item>Fabian Marozsan</item>
+        <item>Dominik Koepfer</item>
+        <item>Yibing Wu</item>
+        <item>Alexei Popyrin</item>
+        <item>Ilya Ivashka</item>
+        <item>Hugo Gaston</item>
+        <item>Alexander Shevchenko</item>
+        <item>Facundo Diaz Acosta</item>
+        <item>Constant Lestienne</item>
+        <item>Marco Cecchinato</item>
+        <item>Diego Schwartzman</item>
+        <item>Radu Albot</item>
+        <item>Soonwoo Kwon</item>
+        <item>Marin Cilic</item>
+    </string-array>
+
+    <integer-array name="player_points">
+        <item>9375</item>
+        <item>8795</item>
+        <item>6520</item>
+        <item>4905</item>
+        <item>4850</item>
+        <item>4825</item>
+        <item>4730</item>
+        <item>3975</item>
+        <item>3310</item>
+        <item>3130</item>
+        <item>2945</item>
+        <item>2770</item>
+        <item>2610</item>
+        <item>2345</item>
+        <item>2225</item>
+        <item>2195</item>
+        <item>2150</item>
+        <item>1880</item>
+        <item>1755</item>
+        <item>1600</item>
+        <item>1565</item>
+        <item>1515</item>
+        <item>1505</item>
+        <item>1500</item>
+        <item>1480</item>
+        <item>1384</item>
+        <item>1376</item>
+        <item>1365</item>
+        <item>1339</item>
+        <item>1321</item>
+        <item>1315</item>
+        <item>1300</item>
+        <item>1233</item>
+        <item>1231</item>
+        <item>1175</item>
+        <item>1149</item>
+        <item>1112</item>
+        <item>1102</item>
+        <item>1095</item>
+        <item>1090</item>
+        <item>1075</item>
+        <item>1030</item>
+        <item>1025</item>
+        <item>1000</item>
+        <item>974</item>
+        <item>953</item>
+        <item>943</item>
+        <item>915</item>
+        <item>902</item>
+        <item>901</item>
+        <item>901</item>
+        <item>889</item>
+        <item>884</item>
+        <item>875</item>
+        <item>870</item>
+        <item>867</item>
+        <item>865</item>
+        <item>855</item>
+        <item>845</item>
+        <item>839</item>
+        <item>833</item>
+        <item>830</item>
+        <item>827</item>
+        <item>815</item>
+        <item>812</item>
+        <item>811</item>
+        <item>808</item>
+        <item>806</item>
+        <item>798</item>
+        <item>796</item>
+        <item>796</item>
+        <item>784</item>
+        <item>782</item>
+        <item>778</item>
+        <item>772</item>
+        <item>771</item>
+        <item>756</item>
+        <item>741</item>
+        <item>737</item>
+        <item>721</item>
+        <item>720</item>
+        <item>716</item>
+        <item>705</item>
+        <item>697</item>
+        <item>693</item>
+        <item>676</item>
+        <item>675</item>
+        <item>675</item>
+        <item>663</item>
+        <item>655</item>
+        <item>652</item>
+        <item>633</item>
+        <item>632</item>
+        <item>626</item>
+        <item>621</item>
+        <item>619</item>
+        <item>615</item>
+        <item>615</item>
+        <item>614</item>
+        <item>610</item>
+    </integer-array>
+
+
+    <string-array name="player_flags_urls">
+        <item>https://flagcdn.com/96x72/es.png</item>
+        <item>https://flagcdn.com/96x72/rs.png</item>
+        <item>https://flagcdn.com/96x72/ru.png</item>
+        <item>https://flagcdn.com/96x72/no.png</item>
+        <item>https://flagcdn.com/96x72/gr.png</item>
+        <item>https://flagcdn.com/96x72/dk.png</item>
+        <item>https://flagcdn.com/96x72/ru.png</item>
+        <item>https://flagcdn.com/96x72/it.png</item>
+        <item>https://flagcdn.com/96x72/us.png</item>
+        <item>https://flagcdn.com/96x72/us.png</item>
+        <item>https://flagcdn.com/96x72/ru.png</item>
+        <item>https://flagcdn.com/96x72/ca.png</item>
+        <item>https://flagcdn.com/96x72/gb.png</item>
+        <item>https://flagcdn.com/96x72/us.png</item>
+        <item>https://flagcdn.com/96x72/hr.png</item>
+        <item>https://flagcdn.com/96x72/pl.png</item>
+        <item>https://flagcdn.com/96x72/au.png</item>
+        <item>https://flagcdn.com/96x72/it.png</item>
+        <item>https://flagcdn.com/96x72/de.png</item>
+        <item>https://flagcdn.com/96x72/bg.png</item>
+        <item>https://flagcdn.com/96x72/ar.png</item>
+        <item>https://flagcdn.com/96x72/ca.png</item>
+        <item>https://flagcdn.com/96x72/es.png</item>
+        <item>https://flagcdn.com/96x72/de.png</item>
+        <item>https://flagcdn.com/96x72/es.png</item>
+        <item>https://flagcdn.com/96x72/kz.png</item>
+        <item>https://flagcdn.com/96x72/fr.png</item>
+        <item>https://flagcdn.com/96x72/us.png</item>
+        <item>https://flagcdn.com/96x72/cl.png</item>
+        <item>https://flagcdn.com/96x72/gb.png</item>
+        <item>https://flagcdn.com/96x72/jp.png</item>
+        <item>https://flagcdn.com/96x72/us.png</item>
+        <item>https://flagcdn.com/96x72/cz.png</item>
+        <item>https://flagcdn.com/96x72/ar.png</item>
+        <item>https://flagcdn.com/96x72/au.png</item>
+        <item>https://flagcdn.com/96x72/nl.png</item>
+        <item>https://flagcdn.com/96x72/it.png</item>
+        <item>https://flagcdn.com/96x72/fr.png</item>
+        <item>https://flagcdn.com/96x72/es.png</item>
+        <item>https://flagcdn.com/96x72/rs.png</item>
+        <item>https://flagcdn.com/96x72/us.png</item>
+        <item>https://flagcdn.com/96x72/gb.png</item>
+        <item>https://flagcdn.com/96x72/it.png</item>
+        <item>https://flagcdn.com/96x72/nl.png</item>
+        <item>https://flagcdn.com/96x72/de.png</item>
+        <item>https://flagcdn.com/96x72/us.png</item>
+        <item>https://flagcdn.com/96x72/ru.png</item>
+        <item>https://flagcdn.com/96x72/fr.png</item>
+        <item>https://flagcdn.com/96x72/ar.png</item>
+        <item>https://flagcdn.com/96x72/fi.png</item>
+        <item>https://flagcdn.com/96x72/se.png</item>
+        <item>https://flagcdn.com/96x72/at.png</item>
+        <item>https://flagcdn.com/96x72/fr.png</item>
+        <item>https://flagcdn.com/96x72/es.png</item>
+        <item>https://flagcdn.com/96x72/us.png</item>
+        <item>https://flagcdn.com/96x72/hu.png</item>
+        <item>https://flagcdn.com/96x72/rs.png</item>
+        <item>https://flagcdn.com/96x72/us.png</item>
+        <item>https://flagcdn.com/96x72/es.png</item>
+        <item>https://flagcdn.com/96x72/rs.png</item>
+        <item>https://flagcdn.com/96x72/de.png</item>
+        <item>https://flagcdn.com/96x72/us.png</item>
+        <item>https://flagcdn.com/96x72/au.png</item>
+        <item>https://flagcdn.com/96x72/ar.png</item>
+        <item>https://flagcdn.com/96x72/es.png</item>
+        <item>https://flagcdn.com/96x72/fr.png</item>
+        <item>https://flagcdn.com/96x72/co.png</item>
+        <item>https://flagcdn.com/96x72/au.png</item>
+        <item>https://flagcdn.com/96x72/ru.png</item>
+        <item>https://flagcdn.com/96x72/pe.png</item>
+        <item>https://flagcdn.com/96x72/fr.png</item>
+        <item>https://flagcdn.com/96x72/ch.png</item>
+        <item>https://flagcdn.com/96x72/fr.png</item>
+        <item>https://flagcdn.com/96x72/au.png</item>
+        <item>https://flagcdn.com/96x72/pt.png</item>
+        <item>https://flagcdn.com/96x72/it.png</item>
+        <item>https://flagcdn.com/96x72/fr.png</item>
+        <item>https://flagcdn.com/96x72/gb.png</item>
+        <item>https://flagcdn.com/96x72/cn.png</item>
+        <item>https://flagcdn.com/96x72/fr.png</item>
+        <item>https://flagcdn.com/96x72/fr.png</item>
+        <item>https://flagcdn.com/96x72/au.png</item>
+        <item>https://flagcdn.com/96x72/ch.png</item>
+        <item>https://flagcdn.com/96x72/au.png</item>
+        <item>https://flagcdn.com/96x72/ru.png</item>
+        <item>https://flagcdn.com/96x72/au.png</item>
+        <item>https://flagcdn.com/96x72/hu.png</item>
+        <item>https://flagcdn.com/96x72/de.png</item>
+        <item>https://flagcdn.com/96x72/cn.png</item>
+        <item>https://flagcdn.com/96x72/au.png</item>
+        <item>https://flagcdn.com/96x72/by.png</item>
+        <item>https://flagcdn.com/96x72/fr.png</item>
+        <item>https://flagcdn.com/96x72/ru.png</item>
+        <item>https://flagcdn.com/96x72/ar.png</item>
+        <item>https://flagcdn.com/96x72/fr.png</item>
+        <item>https://flagcdn.com/96x72/it.png</item>
+        <item>https://flagcdn.com/96x72/ar.png</item>
+        <item>https://flagcdn.com/96x72/md.png</item>
+        <item>https://flagcdn.com/96x72/kr.png</item>
+        <item>https://flagcdn.com/96x72/hr.png</item>
+    </string-array>
+
+</resources>

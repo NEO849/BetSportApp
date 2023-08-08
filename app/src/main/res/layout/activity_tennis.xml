@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/gradient2">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/mainTB"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@drawable/gradient2"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+        <ImageButton
+            android:id="@+id/backArrowIBT"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_gravity="start"
+            android:background="@drawable/stroke1"
+            android:contentDescription="@string/description_imageButton_back"
+            android:src="@drawable/baseline_arrow_back_24" />
+
+        <ImageView
+            android:id="@+id/toolbarLogoIV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginStart="32dp"
+            android:contentDescription="@string/description_icon_app"
+            android:src="@mipmap/ic_launcher" />
+
+        <ImageButton
+            android:id="@+id/burgerMenuIB"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_gravity="end"
+            android:layout_marginEnd="12dp"
+            android:background="@drawable/stroke1"
+            android:contentDescription="@string/description_imageButton_lupe"
+            android:src="@drawable/baseline_menu_24" />
+
+        <ImageButton
+            android:id="@+id/lupenSymbolIB"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_gravity="end"
+            android:layout_marginEnd="12dp"
+            android:background="@drawable/stroke1"
+            android:contentDescription="@string/description_imageButton_burger"
+            android:src="@drawable/baseline_search_24" />
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <View
+        android:id="@+id/toolbarBottomStroke"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/deepPurple"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/mainTB" />
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/mainMessageCV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        app:cardBackgroundColor="@color/transparent"
+        app:cardElevation="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/mainTB"
+        app:strokeColor="@color/transparent">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="16dp">
+
+            <ImageView
+                android:id="@+id/appIV"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_marginEnd="8dp"
+                android:contentDescription="@string/description_icon_app"
+                app:srcCompat="@drawable/topappimage" />
+
+            <TextView
+                android:id="@+id/mainIntroTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_intro1"
+                android:textColor="@color/teal_200" />
+
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+    <TextView
+        android:id="@+id/topTennisTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="34dp"
+        android:text="@string/text_tennis_tophundert"
+        android:textSize="14sp"
+        android:padding="14sp"
+        android:background="@drawable/stroke2"
+        android:textColor="@color/transparentWhite"
+        app:layout_constraintEnd_toEndOf="@+id/mainMessageCV"
+        app:layout_constraintStart_toStartOf="@+id/mainMessageCV"
+        app:layout_constraintTop_toBottomOf="@+id/mainMessageCV" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/tennisplayerRV"
+        android:layout_width="match_parent"
+        android:layout_height="380dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginEnd="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mainMessageCV" />
+
+    <LinearLayout
+        android:id="@+id/backlinkLL"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:background="@drawable/button_background"
+        android:orientation="horizontal"
+        android:padding="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageView
+            android:id="@+id/backlinkIV"
+            android:contentDescription="@string/description_imageButton_backlink"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="16dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/backlink" />
+
+        <TextView
+            android:id="@+id/backlinkTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="18dp"
+            android:autoLink="web"
+            android:padding="14dp"
+            android:text="@string/backlink_url_flags"
+            android:textColor="@android:color/white" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

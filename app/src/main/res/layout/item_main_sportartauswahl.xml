@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/item_main_sportart_auswahlCV"
+    android:layout_width="188dp"
+    android:layout_height="wrap_content"
+    app:cardBackgroundColor="@color/absinth"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="4dp"
+    app:strokeColor="@color/deepPurple"
+    app:strokeWidth="2dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/sportauswahIV"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginEnd="8dp"
+            android:contentDescription="@string/description_sportart_auswahl"
+            android:scaleType="fitCenter"
+            android:src="@drawable/baseline_sports_score_24" />
+
+        <TextView
+            android:id="@+id/sportauswahlTV"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="12sp"
+            android:textColor="@color/white"
+            tools:text="@string/sportartTV" />
+
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>

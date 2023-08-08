@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Wenn der Button betätigt wird -->
+    <item android:drawable="@drawable/gradient1" android:state_pressed="true" />
+    <!-- Wenn der Button gehovert wird (z.B. mit einer Maus oder einem Stylus) -->
+    <item android:drawable="@color/white" android:state_hovered="true" />
+    <!-- Standardhintergrund -->
+    <item android:drawable="@drawable/stroke1" />
+</selector>
