@@ -1,4 +1,5 @@
 # Top 100 - Sport/Wett und Statistik App
+### (Übungs-Projekt Recyclerview´s)
 
 ### Hallo zusammen...
 ### Das ist mein erster ernstzunehmender Versuch eine App in Android Studio zu Programmieren. 
